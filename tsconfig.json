@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "strict": true,
+    "target": "es2022",
+    "outDir": "dist",
+    "module": "commonjs",
+    "strictFunctionTypes": true,
+    "lib": ["dom"]
+  },
+  "exclude": ["node_modules", "**/node_modules/*"],
+  "typeAcquisition": {
+    "include": ["@types/vscode-webview"]
+  }
+}
